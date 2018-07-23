@@ -1,17 +1,18 @@
 <html>
  <script>
    function showImage() {
-    var x = document.getElementById("image1");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
+    
+    document.getElementById("image1").src="lake.jpg";
+    
    } 
  </script>
  <body>
- <button type="button" onclick="showImage()">Click Me to show image!</button>
- <img id="image1" src="lake.jpg" alt="Smiley face" style="display:none" width="800" height="600">
+ 
+  <img id="image1" src="beach.jpg" alt="Not able to show Image." width="800" height="600">
+  <br/>
+  <br/>
+  <br/>
+  <button type="button" onclick="showImage()">Click me to show different image!</button>
  
  </body>
 </html>
