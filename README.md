@@ -1,1 +1,1 @@
-# Assignment1
+This is a project for displaying image.
